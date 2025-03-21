@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "genre": "Programming",
+    "read_status": false,
+    "added_date": "2025-03-11 11:36:40"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-help",
+    "read_status": true,
+    "added_date": "2025-03-17 09:10:25"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "genre": "Programming",
+    "read_status": false,
+    "added_date": "2025-03-18 16:45:50"
+  },
+  {
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "Productivity",
+    "read_status": true,
+    "added_date": "2025-03-19 08:30:00"
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "genre": "Business",
+    "read_status": false,
+    "added_date": "2025-03-20 12:15:30"
+  },
+  {
+    "title": "You Don’t Know JS",
+    "author": "Kyle Simpson",
+    "genre": "Programming",
+    "read_status": false,
+    "added_date": "2025-03-21 10:05:45"
+  }
+]
+
