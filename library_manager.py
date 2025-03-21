@@ -1,15 +1,15 @@
 
-import streamlit as st # type: ignore
-import pandas as pd # type: ignore
+import streamlit as st
+import pandas as pd # 
 import json
 import os
 import datetime
 import time
 import random
-import plotly.express as px  # type: ignore
-import plotly.graph_objects as go  # type: ignore
-from streamlit_lottie import st_lottie # type: ignore
-import requests  # type: ignore
+import plotly.express as px  
+import plotly.graph_objects as go 
+from streamlit_lottie import st_lottie
+import requests  
 
 # set page configuration
 st.set_page_config(
