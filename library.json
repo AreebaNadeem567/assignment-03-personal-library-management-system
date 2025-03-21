@@ -1,45 +1,35 @@
 [
   {
-    "title": "Python Crash Course",
+    "title":"pyhton crash course",
     "author": "Eric Matthes",
-    "genre": "Programming",
+    "publication_year": 2019,
+    "genre":"Programming",
     "read_status": false,
-    "added_date": "2025-03-11 11:36:40"
+    "added_data": "2025-03-11 11:36:40"
   },
   {
-    "title": "Atomic Habits",
-    "author": "James Clear",
-    "genre": "Self-help",
+    "title":"Automate the boring stuff with python",
+    "author": "Fiza Sagar",
+    "publication_year": 2011,
+    "genre":"Programming",
     "read_status": true,
-    "added_date": "2025-03-17 09:10:25"
+    "added_data": "2025-03-11 11:45:80"
   },
   {
-    "title": "The Pragmatic Programmer",
-    "author": "Andrew Hunt, David Thomas",
-    "genre": "Programming",
+    "title":"Fluent Python",
+    "author": "Ramalho",
+    "publication_year": 2022,
+    "genre":"Programming",
     "read_status": false,
-    "added_date": "2025-03-18 16:45:50"
+    "added_data": "2025-03-11 11:55:20"
   },
-  {
-    "title": "Deep Work",
-    "author": "Cal Newport",
-    "genre": "Productivity",
+  {    
+    "title":"Effective Python",
+    "author": "Brett Slatkin",
+    "publication_year": 2020,
+    "genre":"Programming",
     "read_status": true,
-    "added_date": "2025-03-19 08:30:00"
-  },
-  {
-    "title": "The Lean Startup",
-    "author": "Eric Ries",
-    "genre": "Business",
-    "read_status": false,
-    "added_date": "2025-03-20 12:15:30"
-  },
-  {
-    "title": "You Don’t Know JS",
-    "author": "Kyle Simpson",
-    "genre": "Programming",
-    "read_status": false,
-    "added_date": "2025-03-21 10:05:45"
+    "added_data": "2025-03-11 11:58:10"
+    
   }
 ]
-
