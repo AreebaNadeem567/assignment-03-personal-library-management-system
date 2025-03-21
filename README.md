@@ -1,88 +1,56 @@
-Assignment: Personal Library Manager
-Objective
-Create a command-line Personal Library Manager that allows users to manage their book collection. The program should let users add, remove, and search for books. Each book will be stored as a dictionary with details like title, author, publication year, genre, and read status. The program should also include a menu system, basic statistics, and optional file handling for saving and loading the library.
+# Personal Library Manager
 
-Requirements
-Core Features
-Book Details: Each book should have the following attributes:
+## Overview
+The **Personal Library Manager** is a command-line application that allows users to manage their book collection. Users can add, remove, and search for books, as well as view statistics on their reading progress. The library is stored as a collection of dictionaries, each containing details about a book.
 
-Title (string)
-Author (string)
-Publication Year (integer)
-Genre (string)
-Read Status (boolean: True if read, False if unread)
-Menu System: Implement a menu with the following options:
+## Features
+### Core Features:
+- **Book Details:** Each book entry includes:
+  - Title (string)
+  - Author (string)
+  - Publication Year (integer)
+  - Genre (string)
+  - Read Status (boolean: True if read, False if unread)
 
-Add a book
-Remove a book
-Search for a book
-Display all books
-Display statistics (total books, percentage read)
-Exit
-Add a Book: Prompt the user to enter the book's details and add it to the library.
+- **Menu System:**
+  - Add a book
+  - Remove a book
+  - Search for a book (by title or author)
+  - Display all books
+  - Display statistics (total books, percentage read)
+  - Exit the program
 
-Remove a Book: Prompt the user to enter the title of the book to remove it from the library.
+### Functionality
+1. **Add a Book**
+   - Prompts the user to enter book details and stores it in the library.
+2. **Remove a Book**
+   - Allows the user to remove a book by entering its title.
+3. **Search for a Book**
+   - Enables searching by title or author and displays matching results.
+4. **Display All Books**
+   - Prints all stored books in a formatted output.
+5. **Display Statistics**
+   - Shows the total number of books and the percentage of books read.
+6. **Exit**
+   - Safely terminates the program.
 
-Search for a Book: Allow the user to search for a book by title or author. Display all matching books.
+### Optional Features
+- File handling: Save and load the book collection from a file to retain data between sessions.
+- Improved UI with sorting and filtering options.
 
-Display All Books: Show all books in the library in a formatted way.
+## Installation
+1. Clone this repository or download the script.
+2. Ensure you have Python installed.
+3. Run the script using:
+   ```bash
+   python library_manager.py
+   ```
 
-Display Statistics:
+## Usage
+Follow the on-screen menu options to interact with your personal library. Add books, remove them, search, and track your reading progress effortlessly.
 
-Total number of books in the library.
-Percentage of books that have been read.
-Exit: Exit the program.
+## License
+This project is open-source and available for modification and distribution.
 
-Optional Challenge (File Handling)
-Save Library to a File: Save the library data to a file (e.g., library.txt) when the program exits.
-Load Library from a File: Load the library data from the file when the program starts.
-Sample Output
-Menu
-Welcome to your Personal Library Manager!  
-1. Add a book  
-2. Remove a book  
-3. Search for a book  
-4. Display all books  
-5. Display statistics  
-6. Exit  
-Enter your choice:  
-
-Add a Book
-Enter the book title: The Great Gatsby  
-Enter the author: F. Scott Fitzgerald  
-Enter the publication year: 1925  
-Enter the genre: Fiction  
-Have you read this book? (yes/no): yes  
-Book added successfully!  
-
-Remove a Book
-Enter the title of the book to remove: The Great Gatsby  
-Book removed successfully!  
-
-Search for a Book
-Search by:  
-1. Title  
-2. Author  
-Enter your choice: 1  
-Enter the title: The Great Gatsby  
-Matching Books:  
-1. The Great Gatsby by F. Scott Fitzgerald (1925) - Fiction - Read  
-
-Display All Books
-Your Library:  
-1. The Great Gatsby by F. Scott Fitzgerald (1925) - Fiction - Read  
-2. 1984 by George Orwell (1949) - Dystopian - Unread  
-
-Display Statistics
-Total books: 2  
-Percentage read: 50.0%  
-
-Exit
-Library saved to file. Goodbye!  
-
-Instructions
-Use a list of dictionaries to store the books.
-Use loops and conditionals to implement the menu system.
-Use string manipulation to format the output.
-Use type casting to convert user input to appropriate data types.
-(Optional) Use file handling to save and load the library.
+---
+Enjoy managing your personal library!
